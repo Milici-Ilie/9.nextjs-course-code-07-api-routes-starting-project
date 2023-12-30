@@ -832,17 +832,56 @@ return (
 > How to POST a request with API Routes
 > How to DELETE some content/data/request/etc with API Routes
 
-    ## ✅I. subtitlu
+    ## ✅I. -How to write API Routes
+             -Parsing the Incomng Request & Executing Server-side Code
 
-    ## ✅II. subtitlu
+> Always create a folder named exactly 'api', we create this Folder 'api' most of the time in the folder 'pages'. Check also the App/Project structure folders & files
+> The API Route is very recommended when we want to talk to a DataBase and secure our info's
+> API = very good for Secure our data's when we sent our data to a BackEnd DataBase
 
-    ## ✅III. subtitlu
+[PAGES/API/feedback.js]/[PAGES/index.js]/[SECTION.9/Lesson.227]
 
-    ## ✅IV. subtitlu
+                                                                             ❗❗❗🍡🍡[API ROUTES]🍡🍡❗❗❗
 
-    ## ✅V. subtitlu
+    ## ✅II. -How to send reequests to API Routes
 
-    ## ✅VI. subtitlu
+> În general, atunci când vorbim despre formatul de date sau schimbul de date, folosim "JSON" cu majuscule. Când ne referim la extensia de fișier sau la nume de fișiere care conțin date în format JSON, folosim "json" cu litere mici.
+
+[PAGES/index.js]/[]
+
+                                                                        ❗❗❗🚙🚙[REQUESTS TO API ROUTES]🚙🚙❗❗❗
+
+    ## ✅III. -How to use API Routes to get Data
+               -How to create a Button that will redirect the User to a page where he can see the data/info's inserted in the BACKEND Data-Base
+               -How to create a Button that will send a get request to the feedback API route and get the '{feedback:data}' from the file [PAGES/API/feedback.js]
+
+[PAGES/API/feedback.js]/[PAGES/index.js]
+
+                                                                          ❗❗❗🦧🦧[GETTING DATA WITH API]🦧🦧❗❗❗
+
+    ## ✅IV. -How to use API Routes for Pre-Rendering Pages
+
+> This method is good when we have the APP and the DataBase/HTTP/API on our computer, To get rid of the unnecessary requests being sent...
+
+[PAGES/FEEDBACK/index.js]/[PAGES/API/feedback.js]
+
+                                                                          ❗❗❗👾👾[PRE-RENDERING API ROUTES]👾👾❗❗❗
+
+    ## ✅V.   -Creating & Using Dynamic API Routes
+              -How to display/fetch data for every DYNAMIC ID with API
+              -How to display different content when pressing a Button, unique content for every ID, autto fetching the data's from every new data
+
+> Let's say for exemple that we have like in our case the API folowed by our folders "API-LINK/api/some feedback ID" and at the end we want a Dynamic API ID
+> NOTE ! ! ! In the File [feedbackId].js we will create the connection between the Folder [API] and any ID pages that we added there, for ex a Link will be: "LINK-API/pages/api/[feedbackId].js", the [feedbackId].js will be Dynamic depending and changing on every unique ID
+> NOTE!!! Dynamic API requests work also for different requests: PUT, POST, DELETE, GET, ETC... , it depends what function we write. For ex: [[[if(req.method === 'DELETE'){... delete code ...}]]]
+
+[PAGES/API/feedbackId.js]/[PAGES/API/feedback.js]/[PAGES/FEEDBACK/index.js]
+
+                                                                          ❗❗❗📿📿[DYNAMIC API ID's]📿📿❗❗❗
+
+    ## ✅VI. -Exploring Different Ways of Structuring API Route Files
+
+[SEXTION.9/Lesson.233]
 
     ## ✅VII. subtitlu
 
